@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.profileimg {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.profile-text {
+    padding: 0px 60px;
+}
+
+.profile-text .title h1 {
+    font-size: 40px;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.profile-text .title p {
+    font-size: 16px;
+    color: rgb(167, 158, 158);
+    line-height: 1.5;
+    word-spacing: 2px;
+    margin-top: 10px;
+    font-family: "Plus Jakarta Sans", serif;
+    margin-bottom: 40px;
+}
+
+.cardlist h4 {
+    font-size: 20px;
+    color: rgb(36, 29, 29);
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.cardlist p {
+    color: rgb(167, 158, 158);
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.content-text .card {
+    margin-top: 20px;
+}
+
+.content-text .card .iconimg {
+    margin-top: -5%;
+}
+
+.content-text .card .iconimg3 {
+  width:40px;
+  }
+
+/* ------------------------media */
+
+@media(min-width:320px) and (max-width:767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .profileimg {
+        width: 320px;
+        height: 400px;
+        object-fit: cover;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        padding: 10px;
+    }
+
+    .card {
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    .profile-text {
+        padding: 0px 14px;
+    }
+
+    .profile-text .title h1 {
+        font-size: 20px;
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .profile-text .title p {
+        font-size: 15px;
+        color: rgb(167, 158, 158);
+        line-height: 1.1;
+        word-spacing: 2px;
+        margin-top: 10px;
+        font-family: "Plus Jakarta Sans", serif;
+        margin-bottom: 20px;
+    }
+
+    .cardlist h4 {
+        font-size: 20px;
+        color: rgb(36, 29, 29);
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .cardlist p {
+        color: rgb(167, 158, 158);
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .content-text .card {
+        margin-top: 20px;
+    }
+
+    .content-text .card .iconimg {
+        margin-top: -25%;
+    }
+
+    .content-text .card .iconimg3 {
+        width: 40px;
+    }
+}
+
+/* -----------------------------tab */
+@media (min-width:768px) and (max-width:1023px) {
+    .container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .profileimg {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        padding: 10px;
+    }
+
+    .card {
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+    }
+
+    .profile-text {
+        padding: 0px 60px;
+    }
+
+    .profile-text .title h1 {
+        font-size: 40px;
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .profile-text .title p {
+        font-size: 16px;
+        color: rgb(167, 158, 158);
+        line-height: 1.5;
+        word-spacing: 2px;
+        margin-top: 10px;
+        font-family: "Plus Jakarta Sans", serif;
+        margin-bottom: 20px;
+    }
+
+    .cardlist h4 {
+        font-size: 20px;
+        color: rgb(36, 29, 29);
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .cardlist p {
+        color: rgb(167, 158, 158);
+        margin-top: 10px;
+        font-size: 17px;
+        font-family: "Plus Jakarta Sans", serif;
+    }
+
+    .content-text .card {
+        margin-top: 20px;
+    }
+
+    .content-text .card .iconimg {
+        margin-top: -5%;
+    }
+
+    .content-text .card .iconimg3 {
+        width: 40px;
+       
+    }
+}
+
+
